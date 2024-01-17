@@ -1,42 +1,42 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/p8OnGkdQ)
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/p8OnGkdQ)
-# Homework #5: Argumentative Vis
 
-In this homework, you will create a pair of data visualizations that argue for opposing viewpoints, using the same base dataset.
+# Argumentative Vis
 
-Your completed submission should include the following files:
-* `index.html`: The webpage with the visualizations.
-* `data/`: The folder containing your dataset file(s).
-* Any other necessary files like CSS, JS, etc.
+# Ride-Sharing Price Comparison: Lyft vs Uber
 
-(If your dataset is larger than 10 MB, please only extract the portions needed for the visualizations.)
+## Introduction
 
-## Design requirements
+The debate over ride-sharing services, particularly between Uber and Lyft, has been a subject of discussion, especially among college students who prioritize affordability. This project delves into the controversy by comparing the pricing of Lyft and Uber, focusing on data from November to December '18. The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma), and Python, along with Pandas, is utilized for data processing. The analysis centers on the Price and Time of the Day attributes for a comprehensive understanding.
 
-Using techniques from the Storytelling lecture and the [visualization rhetoric paper](http://users.eecs.northwestern.edu/~jhullman/vis_rhetoric.pdf), you will create two visualizations about a dataset that frame the data with opposite narratives.
+## Left Chart: Pro-Lyft Perspective
 
-First, find a dataset about a "controversial" topic. In other words, you want a topic with strong opinions on both sides of the issue. Here are some examples of topics that could work: a political issue, science, religion, sociocultural, economics, immigration, sports, climate change, geopolitical sovereignty, etc. Topics from other regions or countries are also allowed. Good places to look for this data include Kaggle and news organizations that provide access to their data (538, New York Times, etc.).
+The left chart presents a bar chart illustrating the Average Price ($) against different times of the day for both Lyft and Uber. It becomes evident from the visualization that Lyft cabs are priced more competitively than Uber cabs. Rhetorical techniques, including color choices and annotations, are strategically employed to emphasize Lyft's affordability.
 
-> **COVID-19 datasets** are NOT allowed, though, you are free to look at examples of opposing COVID visualizations for inspiration.
+## Right Chart: Pro-Uber Perspective
 
-Next, create your `index.html` page with two visualizations placed side-by-side (one on the left, one on the right). The two visualizations should use the same base dataset. Not all attributes are required to be the the same, and you are free to preprocess the data differently for each visualization (if desired), including aggregating data, filtering data, etc. but use the same source must be used. (In other words, you cannot go find two datasts and merge them together.) 
+On the right, another chart displays the Average Price ($) for different times of the day. Contrary to the left chart, Uber cabs are showcased as more affordable throughout the day when compared to Lyft. Rhetorical techniques, possibly involving color contrast, are implemented to highlight Uber's affordability.
 
-Above the two charts, you should state the controversial viewpoint/topic/concept/proposition/etc. The left-side visualization should be rhetorically framed to argue "in support" of the viewpoint, and the right-side visualization should be rhetorically framed to argue against the viewpoint. 
+## Rhetorics
 
-> 🔍 A good way to consider this is by posing the topic as a question, and the two visualizations are two opposite answers it. The left-visualization supports the "Yes" answer, and the right-visualization supports the opposite "No" answer. You can also frame it like a debate: one "team" (the left visualization) argues the affirmative position, while the other (the right visualization) argues the negative. 
+Several rhetorical techniques contribute to the persuasive presentation:
+- **Obscuring:** Additional data points for Lyft in the left chart support the argument.
+- **Anchoring:** Highlighted bars with yellow draw attention to the winning company in both charts.
+- **Comparison:** Differentiating Lyft and Uber using colors aids in visual contrast.
+- **Provenance:** Cited links to the data source enhance transparency.
+- **Cultural Codes:** Logos added to each chart suggest the interpretation that the corresponding company is the winner.
 
-Again, the trick is that you will use the _same base dataset_ for both visualizations (though, again, the subsets of the data that you pull may be different!), and you'll employ rhetorical techniques to help frame the data in opposing ways. Some examples of how you might do this include: filtering some of the data, picking different attributes to show, using diffrent ranges (timescales, etc), using different granularities, clustering or binning the data, using text annotating on the charts, picking colors or channels to emphasize some aspect of the data. You're allowed to pre-process the data or break up the data into multiple files if necessary. 
+## Project Structure
 
-The Hullman paper on framing effects describes an extensive collection of framing and styling techniques you can use to help frame your visualizations for promoting a specific viewpoint, story, or argument. You can also the lecture slides for ideas of specific rhetorical techniques. You are free to use any visualization techniques and rhetorical framing devices you like, but you should only create ONE main visualization for each side. (In other words, don’t make a collection of several charts to argue Yes or No, just have one for each side. However, it’s okay to inset or annotate a smaller chart within your primary chart.)
+- **index.html:** Main webpage containing visualizations and accompanying text.
+- **data/:** Folder containing the dataset file(s).
+- **images/:** Logos used in the visualization.
 
-Above each of the charts, add a smaller title that's specific to that chart (this title may also be persuasive for the Yes/No position), and below each chart, provide a brief caption that helps argue that chart's position or point. Then, below that, provide the following paragraphs.
+## Instructions for Viewing
 
-* Introduce the topic and provide a link to the dataset source or URL: Provide a brief (3-4 sentence) description of the chosen topic. In other words, if I'm not familiar with the topic, introduce it here. If you'd like, you may state your personal position on the topic, though that's not required.
-* Left chart: Describe the rhetorical techniques or framing effects you are using in this chart, and describe why you think they're persuasive. You should explicitly reference techniques from the lecture/paper!
-* Right chart: Provide a similar writeup for the right chart.
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in a web browser to view the visualizations and analysis.
 
-## Grading 
+## Conclusion
 
-This assignment is worth 10 points. Be sure to organize and lay out your page nicely, with nicely styled elements. Up to +2 bonus points will be considered for submissions that go above and beyond (e.g., creating particularly compelling or impressive argumentative visualizations).
+This project aims to provide an unbiased yet visually compelling comparison between Lyft and Uber, shedding light on the pricing dynamics within the ride-sharing landscape. Feel free to explore and draw your own conclusions based on the presented data.
 
-> ❗️ In previous years, students have posted this assignment as a part of their portfolio. While we cannot prohibit you from reviewing such charts, you are not allowed to use their code, and we highly recommend not even looking at these until you submitted the assignment. Copying someone else's code/arguments is considered plagiarism.
+*Note: Adhere to ethical standards when interpreting and sharing the findings, respecting the privacy and terms of use of the dataset.*
