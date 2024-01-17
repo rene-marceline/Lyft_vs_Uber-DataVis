@@ -1,5 +1,5 @@
 
-# Argumentative Vis
+# Argumentative Visualization using d3.js
 
 # Ride-Sharing Price Comparison: Lyft vs Uber
 
