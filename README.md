@@ -1,5 +1,5 @@
 
-# Argumentative Visualization using d3.js
+  # Argumentative Visualization using d3.js
 
 # Ride-Sharing Price Comparison: Lyft vs Uber
 
@@ -33,7 +33,7 @@ Several rhetorical techniques contribute to the persuasive presentation:
 ## Instructions for Viewing
 
 1. Clone this repository to your local machine.
-2. Open the `index.html` file in a web browser to view the visualizations and analysis.
+2. Open the `index.html` file on the web browser using simple HTTP server to view the visualizations and analysis.
 
 ## Conclusion
 
